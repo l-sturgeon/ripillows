@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(f.jpg);
+  background-image: url(images/f.jpg);
   background-size: cover;
   background-position: center;
   padding-top: 150px;
@@ -83,3 +83,37 @@ body {
 .footer a:hover {
   opacity: 1;
 }
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+
+#my-form {
+  margin-top: 24px;
+  border-radius: 8px;
+}
+
+#my-form-button {
+  border: 2px solid white;
+  background-color: #536162;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 0px 24px;
+  transition: 0.5s;
+}
+
+#my-form-button:hover {
+  background-color: white;
+  color: #536162;
+}
+
