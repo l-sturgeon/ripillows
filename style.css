@@ -7,9 +7,6 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  font-family: 'Lora', serif;
-  color: white;
-  text-shadow: 1px 1px 1px white;
 }
 
 @media screen and (min-width: 950px) {
@@ -37,8 +34,8 @@ a {
 
 .button {
   font-family: 'Open Sans', sans-serif;
-  border: 2px solid white;
-  color: white;
+  background-color: #f4f3f3;
+  color: #435560;
   padding: 8px 24px;
   margin-right: 16px;
   border-radius: 16px;
@@ -47,22 +44,22 @@ a {
 }
 
 .button:hover {
-  background-color: white;
-  color: #0C0C1E;
+  background-color: #435560;
+  color: #f4f3f3;
   text-decoration: none;
 
 }
 
-/*h1 {
+h1 {
   font-family: 'Lora', serif;
-  color: white;
-  text-shadow: 1px 1px 1px white;
-}*/
+  color: #f4f3f3;
+  text-shadow: 1px 1px 1px #f4f3f3;
+}
 
 
 h2 {
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: #f4f3f3;
   font-size: 1.5rem;
 }
 
@@ -73,7 +70,7 @@ h3 {
 body {
   background-color: #435560;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: #f4f3f3;
   font-size: 20px;
   line-height: 40px;
 }
@@ -89,7 +86,7 @@ body {
 }
 
 .footer a {
-  color: #f3f4ed;
+  color: #f4f3f3;
   font-size: 40px;
   opacity: 0.7;
   text-decoration: none;
@@ -118,10 +115,10 @@ body {
 }
 
 #my-form-button {
-  border: 2px solid white;
+  border: 2px solid #f4f3f3;
   background-color: #435560;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: #f4f3f3;
   font-size: 20px;
   border-radius: 8px;
   padding: 0px 24px;
@@ -129,7 +126,7 @@ body {
 }
 
 #my-form-button:hover {
-  background-color: white;
+  background-color: #f4f3f3;
   color: #435560;
 }
 
