@@ -16,7 +16,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <link href="contact-form.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="feather-favicon.png">
+    <link rel="icon" type="image/x-icon" href="feather-favicon.png" />
     <title>R.I.Pillows</title>
   </head>
   <body>
@@ -42,13 +42,13 @@
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="pillow1.jpg" class="d-block w-100" alt="...">
+                    <img src="images/pillow1.jpg" class="d-block w-100" alt="...">
                   </div>
                     <div class="carousel-item">
-                      <img src="multiple.jpeg" class="d-block w-100" alt="...">
+                      <img src="images/multiple.jpeg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="rip.jpeg" class="d-block w-100" alt="...">
+                      <img src="images/rip.jpeg" class="d-block w-100" alt="...">
                     </div>
                 </div>
               </div>
@@ -72,14 +72,14 @@
             <div class="fcf-form-group">
               <label>Name:</label>
               <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" />
+                <input type="text" id="Name" name="Name" placeholder="Please enter your full name" class="fcf-form-control" required/>
               </div>
             </div>
 
             <div class="fcf-form-group">
               <label>Email:</label>
               <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control"/>
+                <input type="email" id="Email" name="Email" placeholder="name@mail.com" class="fcf-form-control" required />
               </div>
             </div>
 
@@ -121,10 +121,10 @@
             'Accept': 'application/json'
         }
       }).then(response => {
-        status.innerHTML = "Thanks for your submission!";
+        status.innerHTML = "Thank you for your message, we aim to respond within one working day";
         form.reset()
       }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
+        status.innerHTML = "Oops! There was a problem submitting your form, please try again"
       });
     }
     form.addEventListener("submit", handleSubmit)
