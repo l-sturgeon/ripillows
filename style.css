@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(f.jpg);
+  background-image: url(images/f.jpg);
   background-size: cover;
   background-position: center;
   padding-top: 150px;
@@ -10,7 +10,8 @@
 }
 
 .carousel-container {
-  margin-top: 24px;
+  display: block;
+  margin-top: 4px;
   margin-bottom: 32px;
   margin-left: auto;
   margin-right: auto;
@@ -55,7 +56,7 @@ h2 {
 }
 
 body {
-  background-color: #536162;
+  background-color: #435560;
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 20px;
@@ -103,7 +104,7 @@ body {
 
 #my-form-button {
   border: 2px solid white;
-  background-color: #536162;
+  background-color: #435560;
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 20px;
@@ -114,6 +115,6 @@ body {
 
 #my-form-button:hover {
   background-color: white;
-  color: #536162;
+  color: #435560;
 }
 
