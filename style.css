@@ -1,0 +1,85 @@
+.banner {
+  background-image: url(images/f.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-container {
+  display: block;
+  margin-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+.carousel-item img  {
+  height: 350px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  border: 2px solid white;
+  color: white;
+  padding: 8px 24px;
+  margin-right: 16px;
+  border-radius: 16px;
+  line-height: 72px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #0C0C1E;
+  text-decoration: none;
+
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  color: white;
+  text-shadow: 1px 1px 1px white;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+body {
+  background-color: #536162;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.footer a {
+  color: #f3f4ed;
+  font-size: 40px;
+  opacity: 0.5;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer a:hover {
+  opacity: 1;
+}
