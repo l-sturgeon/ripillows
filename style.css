@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(f.jpg);
+  background-image: url(images/f.jpg);
   background-size: cover;
   background-position: center;
   padding-top: 150px;
@@ -7,6 +7,15 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  font-family: 'Lora', serif;
+  color: white;
+  text-shadow: 1px 1px 1px white;
+}
+
+@media screen and (min-width: 950px) {
+  .banner h1 {
+    font-size: 104px !important;
+  }
 }
 
 .carousel-container {
@@ -27,6 +36,7 @@ a {
 }
 
 .button {
+  font-family: 'Open Sans', sans-serif;
   border: 2px solid white;
   color: white;
   padding: 8px 24px;
@@ -43,16 +53,21 @@ a {
 
 }
 
-h1 {
+/*h1 {
   font-family: 'Lora', serif;
   color: white;
   text-shadow: 1px 1px 1px white;
-}
+}*/
+
 
 h2 {
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 1.5rem;
+}
+
+h3 {
+  margin-top: 8px;
 }
 
 body {
@@ -76,7 +91,7 @@ body {
 .footer a {
   color: #f3f4ed;
   font-size: 40px;
-  opacity: 0.5;
+  opacity: 0.7;
   text-decoration: none;
   transition: 0.5s;
 }
