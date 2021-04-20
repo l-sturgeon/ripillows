@@ -150,3 +150,7 @@ body {
   color: #435560;
 }
 
+.white-border-top {
+    border-top: 2px solid rgba(244,243,243,0.3);
+    padding-top: 32px;
+}
