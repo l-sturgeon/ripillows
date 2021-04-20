@@ -33,9 +33,9 @@ a {
 }
 
 .button {
+  background-color: #435560;
   font-family: 'Open Sans', sans-serif;
-  background-color: #f4f3f3;
-  color: #435560;
+  color: #f4f3f3;
   padding: 8px 24px;
   margin-right: 16px;
   border-radius: 16px;
@@ -44,8 +44,8 @@ a {
 }
 
 .button:hover {
-  background-color: #435560;
-  color: #f4f3f3;
+  background-color: #f4f3f3;
+  color: #435560;
   text-decoration: none;
 
 }
