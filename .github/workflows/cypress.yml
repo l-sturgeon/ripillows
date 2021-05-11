@@ -1,24 +1,11 @@
-name: E2E tests
-    -on:
-      push:
-        branches:
-          - develop
-      pull_request:
-        types: [opened, synchronize, reopened]
-        branches:
-          - develop
-       schedule:
-         - cron: "*/5 * * * *"
-    jobs:
-      cypress-run:
-        timeout-minutes: 10
-        runs-on: macOS-latest
-        steps:
-          - name: Checkout
-            uses: actions/checkout@v1
-          - name: Setup npm package
-            run: npm install
-          - name: Run E2E test
-            uses: cypress-io/github-action@v1
-            with:
-              config: baseUrl=https://l-sturgeon.github.io/ripillows/
+name: End-to-end tests
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: macOS-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v1
