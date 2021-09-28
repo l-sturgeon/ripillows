@@ -79,7 +79,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 8px;
